@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:900');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+  margin: 0.2em;
+  padding: 0.5em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  min-width: 5em;
+  font-weight: 700;
+  height: 1.2em;
+}
+
+.App-link-twitter { background: #2AA3F0; }
+.App-link-discord { background: #738BD7; }
+.App-link-github { background: #171515;}
+
+.App-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2em;
+}
+
+p, h1 { margin: 0 auto; }
+
+h1 {
+  font-size: 5em; 
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+p { font-size: 1.5em; font-family: 'Source Code Pro', monospace; }
+
+img {
+  width: 1em;
+  margin: 0 auto;
+  fill: white;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
