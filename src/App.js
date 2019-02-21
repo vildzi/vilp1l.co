@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import twitterIcon from './icons/twitter-brands.svg';
 import './App.css';
 
 class App extends Component {
