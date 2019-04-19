@@ -19,7 +19,7 @@ class App extends Component {
             </a>
             <a
               className="App-link App-link-twitter"
-              href="https://twitter.com/vilP1l"
+              href="https://twitter.com/vilP1lDev"
               target="_blank"
               rel="noopener noreferrer"
             >
